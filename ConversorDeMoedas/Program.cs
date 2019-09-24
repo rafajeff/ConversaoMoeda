@@ -13,11 +13,11 @@ namespace ConversorDeMoedas
             Console.Write("$");
             dolar = decimal.Parse(Console.ReadLine());
 
-            Console.WriteLine("\nDigite o valor que deseja converter");
-            Console.Write("R$");
+            Console.WriteLine("\nDigite o valor que deseja converter em dolar");
+            Console.Write("$");
             valor = decimal.Parse(Console.ReadLine());
 
-            Console.WriteLine($"\nO valor é:{valor * dolar:C2}");
+            Console.WriteLine($"\nO valor é:{valor * dolar:C2} Reais");
         }
     }
 }
